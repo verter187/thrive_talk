@@ -1,11 +1,18 @@
  
- import ToDos from "./components/ToDos";
- import Counter from "./components/Counter";
+ import Menu from "./components/Menu/Menu";
+ import Cards from "./components/Cards/Cards";
+ import Header from "./components/Header/Header";
+ import Section from "./components/Section/Section";
+
  import "./App.sass"
+  
  function App() {
-   return ( <div>      
-   <ToDos/>
-   {/* <Counter/>  */}
+   
+   return ( <div className="container"> 
+   <Menu/>
+   <Header/>
+   <Section/>
+   <Cards/>   
    </div>);
    }
 
